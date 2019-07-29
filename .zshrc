@@ -15,6 +15,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 #POWERLEVEL9K_MODE="awesome-mapped-fontconfig"
 #POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_MODE="nerdfont-fontconfig"
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs newline virtualenv status)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -74,7 +76,7 @@ POWERLEVEL9K_MODE="nerdfont-fontconfig"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions python sudo vi-mode)
+plugins=(zsh-autosuggestions git python sudo vi-mode virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
