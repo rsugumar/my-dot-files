@@ -16,7 +16,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 #POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_MODE="nerdfont-fontconfig"
 #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs newline virtualenv status)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs newline status virtualenv)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
